@@ -1,0 +1,3 @@
+function onCreate() {
+  game.addTextToDebug("yay it works!", 0xFFFFFF00);
+}
