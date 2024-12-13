@@ -1,3 +1,11 @@
 function onCreate() {
   game.addTextToDebug("yay it works!", 0xFFFFFF00);
 }
+
+function songStart() {
+  game.addTextToDebug("Song has Started!", 0xFFFF0000);
+}
+
+function destroy() {
+  game.addTextToDebug("goodbye world!", 0xFFFF0000);
+}
